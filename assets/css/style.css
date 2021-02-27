@@ -1,0 +1,277 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* ABOVE HEADER CONTACT */
+
+.above-header {
+    margin: 0px;
+    background-color: #106eea;
+}
+
+.above-header-insidediv {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.above-header-left, .above-header-right {
+    display: inline-block;
+    color: white;
+    cursor: pointer;
+    width: 33%;
+    text-align: center;
+    height: 30px;
+}
+
+.above-header-social {
+    display: inline-block;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    width: 30%;
+    height: 30px;
+}
+
+.above-header-social a {
+    padding: 3px;
+    text-align: center;
+    display: inline-block;
+}
+
+/* MENU UNDER LOGO */
+
+.menu-header {
+    height: 40px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.menu-header a {
+    border-radius: 6px;
+    border: 1px solid transparent;
+    color: white;
+    background-color: #106eea;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+/* LOGO */
+
+.wrapper-img {
+    height: auto;
+    width: 100%;
+}
+
+/*
+.img-fluid {
+    height: 150px !important;
+}
+*/
+
+.wrapper-img {
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+
+/* UNDER HEADER BOOTSTRAP */
+
+.jumbotron {
+    background-color: #f1f6fc !important;
+    margin-bottom: 0 !important;
+}
+
+.display-4 {
+    font-size: 40px !important;
+    color: #106eea;
+}
+
+/* MOJA KODA BOOTSTRAP VAJA */
+
+.cards {
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 1px 8px 3px rgba(0, 0, 0, 0.1);
+    margin: 10px 0px 20px 0px;
+    padding-top: 20px;
+    height: 190px;
+}
+
+.offer-service-wrapper {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px
+}
+
+#container-sign-service {
+    text-align: center;
+    font-size: 30px;
+    color: #106eea;
+    margin-bottom: 30px;
+}
+
+.blue-background {
+    background-color: #f1f6fc;
+}
+
+.about-us-right {
+    padding: 80px;
+    font-size: 16px;
+}
+
+/* _____________________RESPONSIVE__________________________________ */
+
+@media only screen and (max-width: 720px) {
+
+
+}
+
+
+@media only screen and (max-width: 576px) {
+
+.menu-header {
+    display: none;
+}
+
+.wrapper-img {
+    width: 100%;
+}
+
+.header-column {
+    margin: 0 auto:
+    width: 100%;
+}
+
+
+.about-us-picture {
+    width: 100%;
+    margin: 0 auto;
+    height: 300px;
+}
+
+.about-us-left {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+}
+/*________________________________________*/
+
+/* ABOVE QUESTION FORMS TEXT */
+
+.form-text {
+    margin: 30px 30px 30px 30px !important;
+    text-align: center;
+    font-weight: 500px;
+    font-size: 17px;
+}
+
+/* question form */
+
+.question-and-contact-form {
+    text-align: center;
+    background: #f1f6fc;
+    width: 100%;
+    display: inline-block;
+}
+
+.inside-div-form {
+    margin: 10px;
+    text-align: center;
+    left: 50%;
+    padding: 10px;
+    display: inline-block;
+}
+
+.form-element-wrapper {
+    padding: 10px;
+}
+
+/* 1.DIV LEVO */
+
+.question-form {
+    margin: 10px;
+    min-height: 400px;
+    background: white;
+    box-shadow: 0px 1px 8px 3px rgba(0, 0, 0, 0.03);
+    padding: 30px 30px 30px 30px;
+}
+
+.comments-form {
+    padding: 10px;
+    font-style: italic;
+}
+
+input[type=text], input[type=email] {
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    padding: 5px;
+    width: 100%;
+    font-style: italic;
+    resize: vertical;
+}
+
+input[type=submit] {
+    border-radius: 2px;
+    border: none;
+    background-color: #106eea;
+    color: white;
+    padding: 5px;
+    width: 120px;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    padding: 5px;
+    resize: vertical;
+}
+
+/* 2. DIV DESNO */
+
+.contact-at-question {
+    height: auto;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background: #106eea;
+    height: 441px;
+    margin-top: 10px;
+    margin-left: -40px;
+    /*margin-left: -40px; */
+}
+
+.h3-contactus {
+    margin-top: -10px;
+    font-style: bold;
+    font-size: 36px;
+}
+
+.contact-details {
+    font-size: 48px;
+}
